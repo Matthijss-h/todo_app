@@ -11,4 +11,4 @@ if(isset($_POST["addtask"])){
 }
 
 // Save all tasks in $result
-$result = $conn->query("SELECT * FROM tasks ORDER BY id DESC"); ?>
+$result = $conn->query("SELECT * FROM tasks ORDER BY id DESC");
